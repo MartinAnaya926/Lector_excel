@@ -69,3 +69,4 @@ for fila in range(2,10):
     
 # Cerrar los archivos
 libro_original.close()
+# Esta prueba es para verificar el funcionamiento de GITHUB cuando se clona el repositorio
