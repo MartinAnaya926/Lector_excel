@@ -1,11 +1,19 @@
 from openpyxl import load_workbook
 import xlwings as xw
 import matplotlib.pyplot as plt
+import locale
 
 #################################
 #################################
 #################################
+# Set to German locale to get comma decimal separater
+locale.setlocale(locale.LC_NUMERIC, 'es_ES')
 
+plt.rcdefaults()
+
+# Tell matplotlib to use the locale we set above
+plt.rcParams['axes.formatter.use_locale'] = True
+########################
 while True:
     
     '''
